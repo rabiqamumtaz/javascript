@@ -1,0 +1,86 @@
+
+            .head{
+             text-align: center;
+            }
+            .para h4{
+                font-size: large;
+            }
+            .head img{
+                height:117px;
+                width: 117px;
+                margin-left:738px;
+                float: left;
+            }
+            .accbox{
+                width: 500px;
+                height: 400px;
+                margin: 8% auto;
+                position: relative;
+
+            }
+            
+            .accbox{
+                margin-top:4%;
+            }
+            .accbox fieldset{
+                padding: 5%;
+                font-size: large;
+            }
+            .accbox img{
+                height: 48px;
+                width: 121px;
+            }
+            .accbox legend{
+                font-size:x-large;
+                font-style: normal;
+            }
+            .per{
+                margin:8% auto;
+                width: 500px;
+                height: 400px;
+                position: relative;
+            }
+            .per{
+                margin-top:4% ;
+            }
+            .per legend{
+                font-size:x-large;
+                font-style: normal;
+            }
+            .per img{
+                height: 51px;
+                width: 126px;
+            }
+            .per fieldset{
+                padding: 5%;
+                font-size: large;
+            }
+            .rvw{
+                width: 500px;
+                height: 400px;
+                margin: 8% auto;
+                position: relative;
+                background-color:white;
+            }
+            .rvw{
+                text-align: center;
+            }
+            .rvw img{
+                height: 150px; 
+                width: 150px;
+            }
+            .rvw h4{
+                color: darkgreen; 
+                font-size:25px;
+            }
+            .rvw p{
+                color: rgb(195, 43, 226); 
+                font-size: 25px;
+            }
+            .rvw a{
+                text-decoration: none;
+            }
+            .rvw h5{
+                color: rgb(21, 96, 195);
+                 font-size: 25px;
+            }

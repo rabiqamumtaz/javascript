@@ -1,0 +1,36 @@
+
+
+
+
+6) Controllers in ASP.NET MVC
+7) Action method
+8) Model in ASP.NET MVC
+9) Create a View in ASP.NET MVC
+10) Integrate Controller, View and Model
+11) What is Layout View in ASP.NET MVC
+12) Create and Render Partial Views
+13) ASP.NET MVC - ViewBag
+14) ASP.NET MVC - ViewData
+15) ASP.NET MVC - TempData
+16) Implement Data Validation in MVC
+17) Working with Entity Framework Models
+        Database First
+        Code First
+        Model First
+
+actin method - request lena or response dena 
+model - db related files and object classes 
+view - frontend pages hoty hain 
+right click on view add - add- view 
+
+ViewBag - Single Value hold kerta h .. Iski life 1 reqeuest
+View Data - Store Dictionary in key value format {key:value} - Iski life 1 request
+Temp Data - Signle value hold kerta h ... iski life 2 request hoti h (controller se data frontend par lekar jaty hain)
+abh html se kar lon start ok 
+
+html:
+Navigation bar bnana
+Tables bnana 
+Forms
+divs, a, nav , footer, header inke tags kia kerte h 
+list

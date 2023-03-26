@@ -1,0 +1,33 @@
+ ji gogole drive se data lene k lie hame apni drive connect kerni parti h 
+
+
+
+from sklearn 
+mtlb sklear se hi humne svm model lia knn lia or guassianNB  naive bayes bhi lia 
+
+panadas or nupy dataframe banen k lie
+model selection cros validation k liye 
+
+
+read excel me hamara data excel me read ho kar array me convert ho jaye ga 
+x me 16 features or y me class 
+ kyunke hamare data me 17 columsn 16 features 1 class to humne class wala column gira dia take hum x me 16 features rakh sake 
+
+train x or test x wala bata den
+
+hamare pas aik function hota h Train_test_split uye isme hum X and Y preprocessing kerne k bad pass kerte h sath me hum ratio btate h 0,.2 jese humne btaya splitting ka.... ye hame return me 
+
+train_x,train_y x me kia hota ha=  mtlb 80% jo hamara training data h X or Y ko 80% split kerke train me rakh deta h
+
+or test x and test y me 20% jispe humne testing kerni hogi
+
+model.fit me hum training ata deker model ko train kerte h
+predict function me hum test data deker prediction lete h
+phr un predictions ko hamare pass jo test_y data available hota h usse compare kerke accuracy nikal lete h 
+
+cross val wale fun me knn model ka test x or test y ko compare kia 
+cross vali 5 hain 
+
+KNN iteration 5 
+ svm iteration 12 
+nb ki wo default setting per hi h 5 hoti h default 

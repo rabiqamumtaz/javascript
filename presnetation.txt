@@ -1,0 +1,40 @@
+Presentation - Web
+Rabi
+Introduction: Hello guys, Good morning/aftername, My Name is Rabiqa Mumtaz, We are team "Omega", this is Rumaisa and Mishal. To aj hum brief overview denge humare project "Shabbi Printing" ka
+
+Project overview: Basically ye aik polythene bags manufacturing factory h, Ye har kism k polythene bags, recycle products wagera me deal kerte h.
+
+Project ideology: Humne is market ko is waja se target kia kyunke big factories k pass already contracts hote h, online presence hoti h lekin small factories ko unke employees k bad koi janta bhi nai hota.. is waja se humne socha kyu na inki help ki jae or inke lie aik online presence create kere. Jis se factories ka bhi faida ho unki aik online identity hogi to ziada orders receive honge ziada kaam milega jisse new jobs create hongi or consumers ko bhi faida hoga unhe factories k chakkar nai kaatne parege direct online hi wo apne desired products ki booking kerlenge.
+
+Technology overview:
+Humne ye website Frontend k 3 basic pillars per bnai h. HTML5 , CSS3 and Javascript iske bad isko backend functionality dene k lie humne Microsoft asp.net use ki h. asp.net me hum MVC approach per website bna rahe h. MVC means Model - VIEW - Controller, 
+Model me hum sara Database se related kaam kerte h
+View me hamare frontend pages hote h basically html code
+or Controller me hum business logics lagate h or ye as a bridge bh kaam kerta h database or frontend k beech me.
+
+Why Aspnet:
+Hum ne ASP.net is waja se use ki k for smaller level projects MVC is a good approach mtlb aik hi project me hum Frontend Backend dono bna lete h jis waja se resources save hoti h or code ka structure clean rehta h.
+
+Now over to mishal jo hume Controller view or database k bare me btaegi.
+
+Mishal
+Controllers: Controller basically wo area hota h jaha hum C# ka code kerte h for writing business logics.. bsuiness logics in a way k data fetch kin conditions per hoga db se or datasubmits kis tarah se hoga. Controllers me ham action results bnate h jo get or post methods me hote h.. Get hum use kerte h jab hume page load kerna hota h. or post jab data submit kerte h. Hamare project Shabbi Printing me humne aik hi controller bnaya h or hamare sare pages usi controller se linked h. kyunke humare project ki current condition me new controller banane se just code redudancy aani th.
+
+Views:
+Views UI pages hote h wo cheez jo user ko directly show hogi. In pages per humara website ka design hota h or wo saari cheeze jisse user interact kerke submit kerta h apni queries jese aik contact form. user apni details bhr k submit kerta h.
+
+Layouts:
+Layout aspnet me wo page hota h jo baki view pages me common rehta h. Layout page ko hum once bana ker multiple page me directly inherit kerlete h. Layout page me hum usually headers or footers jese components bnate h take wo hamare bAki pages me automatically inherit hojae.
+
+Romaisa
+Database:
+What is database. Database aik trah ka collection ha jaha hum website ka data save kerte h. jese k koi user register howa to uski jo information hogi wo hamare database me save hojaegi phr jab wo login kere ga to uski id ko ham database se match kere ge. 
+
+humne is project k lie MSSQL database use kia h ye aik relational database h. relational database wo hote h jisme 2 tables ka apas me relation bna htoa h through foreign keys. Humne ye database islie choose kia kyunke Asp.net k sath MSSQL bht ache se perform kerta h or compatibility issues nai aate.
+
+Entity franework:
+Entity Framework basically aik ORM - Object Relation Mapper. Ye kia kerta h ye hamare databse or asp.net k project ko apas me link kerdeta h.. isme 2-3 trah ki appraoches hoti h.. aik database first jisme hum database bnate h pehle or entity framework uske models hamare lie khud bnadeta hn. iske ilawa hamare pas code-first appraoch hoti h usme hum pehle model bnate h or entity framework hamare lie database bnadeta h. 
+
+
+Conclusion:
+To finally in technologies ko use kerke humne Shabbi Printing ka project complete kia. Well koi bhi project kabhi 100% complete nai hota usme features addition hoti rehti h. jese we are planning k hum isme aik quotation lene ka form bnae user quotation le sake. products ki bulk quantity k prices auto show hojae.. is trah k bht se kaam ham ne soche howe h jo in sha Allah hum in project me kere ge or isko beneficial bnae ge har aik small factory owner k lie jo online market me step kerna chahta h.

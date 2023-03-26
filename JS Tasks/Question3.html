@@ -1,0 +1,36 @@
+
+<html>
+  Write an html page that contains a button that, when you click on it, it displays a date and time
+in an alert box. The date and time should be displays as follows: Sunday, April 9, 3:27:3 pm.
+<br>
+<button onclick="displayClock()">Show me Date</button>
+  </html>
+
+<script>
+
+    function displayClock(){
+      
+      var date = new Date();
+      var dayList = ["Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday","Sunday"];
+      var monthList = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+      var day = dayList[date.getDay()];
+      var month = monthList[date.getMonth()];
+      var numDate =  date.getDate();
+      var hour = date.getHours();
+      if (hour >= 12) {
+        hour = hour  - 12
+      }
+      var minute = date.getMinutes();
+      var second = date.getSeconds();
+      var tt = "pm"
+      if (hour >= 12){
+        tt = "am"
+      };
+
+      alert( day + ", " + month + " " +  numDate + ", " + hour + ":"+minute+":"+second+" "+ tt );
+
+     
+    }
+
+</script>

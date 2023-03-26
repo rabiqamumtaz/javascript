@@ -1,0 +1,49 @@
+SP.NET MVC Architecture
+2) ASP.NET MVC Folder Structure
+3) Routing in MVC
+4) Bundling and Minification
+           Combine Script Files using ScriptBundle in ASP.NET MVC
+           StyleBundle - Combine CSS Files in ASP.NET MVC
+5) HTML Helpers
+            Html.ActionLink()
+            Html.TextBox()
+            Html.TextArea()
+            Html.CheckBox()
+            Html.RadioButton()
+            Html.DropDownList()
+            Html.ListBox()
+            Html.Hidden()
+            Html.Password()
+            Html.Display()
+            Html.Label()
+            Html.Editor()
+6) Controllers in ASP.NET MVC
+
+
+ActionLink - @Html.ActionLink("Create New", "Create") 
+
+
+<a href: "localhost/home/create"> Create new </>
+model view controller
+model me db hota hai
+view me front end k pages hoty hain
+controller me c# ka code hota hai jis me hum bussiness logics lagaty hain or isme 2 types hoti hain ok
+
+
+App_start - Config files
+App_data - Server related IIS
+Content - styling css bootstrap images 
+controller - c# action result 
+fonts- Text style jo hum website per font use kerte h
+Modls - db
+scripts - js
+views - front end pages ui pages 
+
+
+Routing Pattern matching system jo request k pattern ko match kerta h then decide kerta h isko konse page ya actiona result per leker redirect kerdena h 
+
+minification - line break or spaces ko khatam kar k code ka size chota kar deta hai 
+bundling - .net hamare lie hamari ko bundle bnadeti h mtlb aik hi file me ssaari merge hojati h default 
+
+controllers me c# ka code hota hai jis me hum bussiness logics lagaty hain 2 type k method use karty hain get or post get se hum page load karwaty hain or set se data submit karwaty hain 
+
